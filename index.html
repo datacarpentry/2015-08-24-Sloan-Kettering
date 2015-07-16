@@ -2,13 +2,13 @@
 layout: bootcamp
 root: .
 venue: Sloan-Kettering
-address:  
+address: Zuckerman Research Center Room 105, Memorial Sloan Kettering Hospital<br>417 East 68th St. New York, NY 10065<br>
 country: United-States
 humandate: August 24-25, 2015
-humantime: 9:00 am - 4:30 pm
+humantime: 8:30 am - 4:30 pm
 startdate: 2015-08-24
 enddate: 2015-08-25
-latlng: 
+latlng: +40.7650792, -73.9565137
 registration: open
 host: ["Tom Magaldi"]
 instructor: ["Jason Pell", "Jennifer Shelton", "Jared Camins-Esakov"]
@@ -44,10 +44,13 @@ time, and with less pain.
 <p>
 Preliminary schedule:
 <ul>
-<li>  Day 1 morning: Data organization in spreadsheets and data cleaning with OpenRefine
-<li>  Day 1 afternoon: SQL for data management
-<li>  Day 2 morning: Introduction to R
-<li>  Day 2 afternoon: Data analysis and visualization in R
+<li>  8:30am Day 1: Coffee and light breakfast and installation help
+<li>  9:00am Day 1 morning: Data organization in spreadsheets and data cleaning with OpenRefine
+<li>  1:00pm Day 1 afternoon: SQL for data management
+<li>  ---
+<li>  8:30am Day 2: Coffee and light breakfast
+<li>  9:00am Day 2 morning: Introduction to R
+<li>  1:00pm Day 2 afternoon: Data analysis and visualization in R
 </ul>
 
 
@@ -96,11 +99,11 @@ Preliminary schedule:
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{ page.address }}.
+  {{ page.address }}
   Get directions with
   <a href="http://www.openstreetmap.org/?mlat={{ page.latlng | replace:',','&mlon=' }}&zoom=16">OpenStreetMap</a>
   or
-  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>.  Within Mann Library, B30A Classroom is in the basement as you exit the elevators.  See <a href="http://smartmap.mannlib.cornell.edu/location/b30a" target="_blank"> the floor plan </a>. 
+  <a href="http://maps.google.com/maps?q={{ page.latlng }}">Google Maps</a>
 </p>
 {% endif %}
 
@@ -130,7 +133,7 @@ Data Carpentry's teaching is hands-on, so participants are encouraged to bring i
   for questions and information not covered here.
 </p>
 
-<p><strong>Twitter</strong>: #datacarpentry</p> @datacarpentry
+<p><strong>Twitter</strong>: @datacarpentry
 
 
 <h2>Acknowledgements &amp; Support</h2>
