@@ -1,9 +1,13 @@
 
-2015-05-03-NDIC
+2015-08-24-Sloan-Kettering
 ==================
 
 Data Carpentry workshop
-2015 National Data Integrity Conference at CSU
+Sloan-Kettering
+August 24-25, 2015
+
+
+Workshop website: (http://datacarpentry.github.io/2015-08-24-Sloan-Kettering/)[http://datacarpentry.github.io/2015-08-24-Sloan-Kettering/]
 
 
 
